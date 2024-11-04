@@ -40,7 +40,7 @@ class Program
             }
         }
 
-        Console.WriteLine("Presss any key to finish.");
+        Console.WriteLine("Press any key to finish.");
         Console.ReadKey(); // Wait for a key press before closing
     }
 
@@ -62,6 +62,7 @@ class Program
 
             buffer[i] = letter;
         }
+
         return new string(buffer);
     }
 
