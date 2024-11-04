@@ -40,7 +40,7 @@ class Program
             }
         }
 
-        Console.WriteLine("Press any key to finish.");
+        Console.WriteLine("Presss any key to finish.");
         Console.ReadKey(); // Wait for a key press before closing
     }
 
